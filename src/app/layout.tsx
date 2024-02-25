@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/organisms/Navbar/Navbar";
+import { NavbarMoblie } from "@/components/organisms/NavbarMobile/NavbarMobile";
+import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +21,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={"flex flex-col items-center justify-center"}>
         <Navbar />
+        <NavbarMoblie />
+
         {children}
       </body>
     </html>
