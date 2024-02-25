@@ -1,12 +1,17 @@
-import { Icons } from "@/components/atoms/Icons/Icons";
-import { ListIcons } from "@/components/molecules/ListIcons/ListIcons";
-import Image from "next/image";
-import { FaRegUser } from "react-icons/fa";
+import { Navbar } from "@/components/organisms/Navbar/Navbar";
 
 export default function Home() {
   return (
     <>
-      <ListIcons />
+      <div className="w-full h-[500px] bg-red-200"></div>
+      <div className="w-full h-[500px] bg-red-200"></div>
+      <div className="w-full h-[500px] bg-red-200"></div>
+      <div className="w-full h-[500px] bg-red-200"></div>
+      <div className="w-full h-[500px] bg-red-200"></div>
+      <div className="w-full h-[500px] bg-red-200"></div>
+      <div className="w-full h-[500px] bg-red-200"></div>
+      <div className="w-full h-[500px] bg-red-200"></div>
+      <div className="w-full h-[500px] bg-red-200"></div>
     </>
   );
 }

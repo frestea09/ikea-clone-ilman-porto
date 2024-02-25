@@ -5,7 +5,7 @@ type ListIconsItemType = {
 };
 export const LIstIconsItem = ({ item }: ListIconsItemType) => {
   return (
-    <li className="flex justify-center items-center align-middle w-full h-full py-2 px-8">
+    <li className="flex justify-center items-center align-middle w-full h-full py-2 px-1">
       <Icons>{item}</Icons>
     </li>
   );
